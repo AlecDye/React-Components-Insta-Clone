@@ -29,7 +29,7 @@ const Post = props => {
           src={props.postData.imageUrl}
         />
       </div>
-      <LikeSection incrementLikes={incrementLikes} likes={likes} /> //TODO: passing likes into likesection
+      <LikeSection incrementLikes={incrementLikes} likes={likes} />
       <CommentSection
         postId={props.postData.imageUrl}
         comments={props.postData.comments}
