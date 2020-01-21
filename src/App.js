@@ -13,9 +13,11 @@ import "./App.css";
 // import dummydata
 
 const App = () => {
+  const [data] = useState(dummydata);
   // set up state for the dummy data and pass to your PostsPage
   return (
     <div className="App">
+      <SearchBar />
       {/* Add components here  and pass props where appropriate */}
     </div>
   );
